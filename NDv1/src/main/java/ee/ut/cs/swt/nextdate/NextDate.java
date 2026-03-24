@@ -93,10 +93,10 @@ public class NextDate {
                         tomorrowDay = 1;
                         tomorrowMonth = 3;
                     }
-                    else
-                        return "Invalid Input Date";
+//  else
+//      return "Invalid Input Date";
                 }
-                else if(day > 29) //invalid input as February will never have more than 29 days
+                else if(day > 29)
                     return "Invalid Input Date";
             }
         }
